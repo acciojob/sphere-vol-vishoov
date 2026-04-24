@@ -9,7 +9,7 @@ const radiusValue = parseFloat(radius);
 		output.value="NaN"
 	}else{
 		const volume = (4/3)*Math.PI*Math.pow(radiusValue, 3);
-		output.value = volume;
+		output.value = volume.toFixed(4);
 	}
 } 
 
